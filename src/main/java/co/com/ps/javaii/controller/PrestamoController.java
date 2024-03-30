@@ -48,9 +48,8 @@ public class PrestamoController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletePrestamo(@PathVariable Long id) {
-    IPrestamoService.deletePrestamo(id);
+        IPrestamoService.deletePrestamo(id);
     return ResponseEntity.noContent().build();
 }
 
 
-}

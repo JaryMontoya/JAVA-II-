@@ -32,24 +32,7 @@ public class PrestamoService implements IPrestamoService {
     }
 
     @Override
-    public Prestamo getClienteById(Long id) {
-        return null;
+    public void deletePrestamo(Long id) {
     }
-
-    @Override
-    public Prestamo registrar(Cliente cliente) {
-        return null;
-    }
-
-    @Override
-    public Prestamo createCliente(Cliente cliente) {
-        return null;
-    }
-
-    @Override
-    public Prestamo updateCliente(Cliente cliente) {
-        return null;
-    }
-
 
 }
